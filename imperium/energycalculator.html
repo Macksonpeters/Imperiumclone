@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImperiumCalculator</title>
+    <link rel="stylesheet" href="/imperiumclone.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+</head>
+</head>
+</head>
+<body>
+    
+    <div id="imperium" class="imperiumcontainer">
+        <div class="container-xxl pb-3">
+            <!-- header -->
+            <header>
+                <!-- marquee top section -->
+                <div class="marqueecontainer">
+                    <marquee>
+                        At checkout, you could take advantage of our Lease to Own financing option to buy your choice of products and solution. Terms and conditions apply. 
+                    </marquee>
+                </div>
+
+                <!-- navbar -->
+                <nav class="navbar navbar-expand-lg">
+                <div  class="container-fluid">
+                  <a class="navbar-brand col-md-2 col-xl-5 mx-2" href="/index.html"><img width="100" height="50"  src="/images/imperium_logo.png" class="img-fluid" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#storenavbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="" ><i class="bi bi-list text-secondary display-6 border-none"></i></span>
+                  </button>
+                  <div  class="collapse navbar-collapse"  id="storenavbar">
+                    <ul class="navbar-nav pt-3">
+                      <li class="nav-item">
+                        <a id="productlink" class="nav-link text-success   " aria-current="page" href="/imperium/about.html">Products</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-success" href="/imperium/powerservice.html">Power as a service</a>
+                     </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-success" href="#">Energy Calculator</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link mt-1 mt-md-0 text-success" href="#"><i style="font-size: 8px;" class="bi bi-search text-success border-2 border-success rounded-circle border p-2"></i></a>
+                     </li>
+                      <li class="nav-item">
+                        <a class=" nav-link mt-2 mt-md-0" href="/shop/cart.html"><span  class=""><i class="bi bi-cart3 h4 fw-bold text-success "><sup style="font-style: normal;" class="rounded-circle p-2 bg-warning">0</sup></i></span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link mt-2 mt-md-0 text-black bg-warning px-3 col-2 col-lg-10 rounded fw-bold" href="">Login</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                </nav>
+
+                <div id="productshover" class="">
+                    <div id="productshovercontent" class="row p-3">
+                        <a id="productsdropdown" class="text-decoration-none col-5 p-4 border-success rounded border" href="">
+                            <img src="/images/solar.svg" alt="">
+                            <dt style="display: inline;" class=" ms-2 small text-success">Solar panels</dt>
+                        </a>
+                        <a id="productsdropdown" class="ms-4 text-decoration-none col-5 p-4 border-success rounded border" href="">
+                            <img src="/images/accessories.svg" alt="">
+                            <dt style="display: inline;" class=" ms-2 small text-success">Complete Solutions</dt>
+                        </a>
+                        <a id="productsdropdown" class="text-decoration-none col-5 p-4 border-success rounded border" href="">
+                            <img src="/images/inverter.svg" alt="">
+                            <dt style="display: inline;" class=" ms-2 small text-success">Inverters</dt>
+                        </a>
+                        <a id="productsdropdown" class="ms-4 text-decoration-none col-5 p-4 border-success rounded border" href="">
+                            <img src="/images/battery.svg" alt="">
+                            <dt style="display: inline;" class=" ms-2 small text-success">Battery</dt>
+                        </a>
+                        <a id="productsdropdown" class="text-decoration-none col-5 p-4 border-success rounded border" href="">
+                            <img src="/images/accessories.svg" alt="">
+                            <dt style="display: inline;" class=" ms-2 small text-success">Accessories</dt>
+                        </a>   
+                        <a id="productsdropdown" class="ms-4 text-decoration-none col-5 p-4 border-success rounded border" href="">
+                            <img src="/images/others.svg" alt="">
+                            <dt style="display: inline;" class=" ms-2 small text-success">Special Offers</dt>
+                        </a>
+                    
+                               
+                       
+                    </div>
+                </div>
+           </header>
+        </div>
+
+        <section id="" class="mx-4 mt-2">
+           <div id="calculator">
+                <div class="row justify-content-center align-items-center pb-5">
+                    <div class="col-12 col-lg-6 px-5">
+                        <h2 class="fw-bold text-black display-5 mx-2">General Calculation</h2>
+                        <p class="small mt-3 mx-2 col-lg-10">Enter your energy consumption rate and we will recommend the best renewable energy solutions for you.</p>
+                        <p class="mt-3 d-none d-lg-flex">
+                            <a href="" class="btn bg-success py-2 px-4 fw-bold text-white rounded-base">Request Energy Audit</a>
+                    
+                        </p>
+                    </div>
+                    <div class="d-none d-lg-flex col-12 col-lg-6 text-center">
+                        <img src="/images/evaluation.svg" width="" alt="" class="img-fluid ">
+                    </div>
+                </div>
+           </div>
+
+           <div class="bg-white pt-4">
+            <div id="generalcalculation" class="">
+                <div class=" pt-5">
+                    <div class=" ">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 text-start text-lg-center">
+                                <h2 class="fw-bold"><img src="/images/archive-tick.svg" alt=""><span class="ps-2">General Calculation</span></h2>
+                            </div>
+                            <div class="col-12 col-lg-6 text-end mt-3 mt-lg-0 text-lg-center">
+                                <p id="basiscalculation" class="btn bg-warning p-3 lead text-black">
+                                    <span class="p-3" id="generatorbased">Generator Based</span>
+                                    <span id="devicebased" class="mx-3 p-3">Device Based</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="generatorbasedcontent" class=" row justify-content-center pt-5">
+                            <div class="col-12 col-lg-5 ps-lg-5 py-5 bg-light">
+                                <h5 class="fw-light">Your Calculation</h5>
+                                <form action="">
+                                    <div class="mb-3">
+                                        <label for="fueltype" class="mb-1 small mt-4">Fuel Type</label>
+                                        <select name="fueltype" class="border-1 border-success col-12 col-lg-6" id="fueltype">
+                                            <option selected value="">Fuel type</option>
+                                            <option value="petrol">Petrol</option>
+                                            <option value="diesel">Diesel</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="generatorcapacity" class="mb-1 small mt-4">What's your generator capacity?</label>
+                                        <input type="number" name="generatorcapacity" placeholder="KVA" required class="col-12 col-lg-6 border-1 border-success " id="generatorcapacity">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="dailyusagetime" class="mb-1 small mt-4">What's your daily generator On-time?</label>
+                                        <input type="number" name="dailyusagetime" placeholder="HRS" required class="col-12 col-lg-6" id="dailyusagetime">
+                                    </div>
+                                    <div id="percentageloading" class="mb-3">
+                                        <label for="percentageloading" class="mb-1 small mt-4">Percentage loading in gallons/hour?</label>
+                                        <input type="number" name="percentageloading" required class="col-12 col-lg-6 border-1 border-success " id="percentageloading">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="monthlyusagetime" class="mb-1 small mt-4">Period of usage per month?</label>
+                                        <input type="number" name="monthlyusagetime" required class="col-12 col-lg-6 border-1 border-success " id="monthlyusagetime">
+                                    </div>
+
+                                    <button type="submit" class="mt-2 fw-bold col-12 col-lg-6">Compute</button>
+                                </form>
+                                
+                            </div>
+                            <div id="maintenanceinfo" class="col-12 col-lg-5 px-5 py-5 bg-light">
+                                <h5 class="fw-light">Maintenance Information</h5>
+                                <div class="mb-3"> 
+                                    <label for="generatorprice" class="mb-1 small mt-4">Price of generator</label>
+                                    <p id="generatorprice" name="generatorprice"></p>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="maintenancecost" class="mb-1 small mt-4">Monthly Maintenance Cost</label>
+                                    <p id="maintenancecost" name="maintenancecost"></p>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="fuelcost" class="mb-1 small mt-4">Cost of fuel per litre</label>
+                                    <p id="fuelcost" name="fuelcost"></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div id="devicebasedcontent" class=" row justify-content-center pt-5">
+                            <div class="col-12 col-lg-5 ps-lg-5 py-5 bg-light">
+                                <h5 class="fw-light">Your Calculation</h5>
+                                <form action="">
+                                    <div class="mb-3">
+                                        <label for="fueltype" class="mb-1 small mt-4">Choose Device</label>
+                                        <select name="" id="" required="required" class="col-12 col-lg-6"><option value="" disabled="disabled" selected="selected"> Choose a device </option><option> Air Conditioner- Big </option><option> Air Conditioner- Medium </option><option> Air Conditioner- Small </option><option> Air Fryer </option><option> Blender </option><option> Bread Toaster </option><option> Cake Mixer </option><option> Ceiling fan </option><option> Chandelier </option><option> Decoder </option><option> Deep Fryer </option><option> Desktop </option><option> Dishwasher </option><option> Electric bath-tub </option><option> Electric Cooker </option><option> Electric kettle </option><option> Electric Pressing Iron- Industrial </option><option> Electric Pressing Iron- normal </option><option> Energy-saver bulb </option><option> Extractor fan/  Heat expeller </option><option> Freezer - Bigger size </option><option> Freezer - Medium size </option><option> Freezer -Smaller size </option><option> Fridge - Medium size </option><option> Fridge - Smaller size </option><option> Fridge- Bigger size </option><option> Hair Dryer </option><option> Hair Straightener </option><option> Hand Dryer </option><option> Hot Plate- Double </option><option> Hot Plate- Single </option><option> Juice extractor </option><option> Juice extractor - Kenwood </option><option> Laptop </option><option> LED bulb </option><option> LED Floodlights </option><option> Microwave Oven </option><option> Oven </option><option> Rice Cooker </option><option> Sound System </option><option> Standing fan (Industrial) </option><option> Standing fan (ordinary) </option><option> Television set (LED/LCD) - 42 inches </option><option> Television set (LED/LCD) - 49 inches </option><option> Television set (LED/LCD) - 55 inches </option><option> Television set (LED/LCD) -24 inches </option><option> Television set (LED/LCD) -32 inches </option><option> Television set (LED/LCD) -39 inches </option><option> Television set (LED/LCD)- 19 inches </option><option> Television set (LED/LCD)- 21 inches </option><option> Vaccum Cleaner </option><option> Washing Machine- big </option><option> Washing Machine- small </option><option> Water Dispenser </option><option> Water Heater </option></select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="powerrating" class="mb-1 small mt-4">Power rating</label>
+                                        <input type="number" name="powerrating" placeholder="KW" required class="col-12 col-lg-6 border-1 border-success " id="powerrating">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="quantity" class="mb-1 small mt-4">Quantity</label>
+                                        <input type="number" name="quantity" placeholder="" required class="col-12 col-lg-6 border-1 border-success " id="quantity">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="dailyusagetime" class="mb-1 small mt-4">Hours of usage daily</label>
+                                        <input type="number" name="dailyusagetime" placeholder="HRS" required class="col-12 col-lg-6" id="dailyusagetime">
+                                    </div>
+                                    
+
+                                    <button type="submit" class="mt-2 fw-bold col-12 col-lg-6">Add</button>
+                                </form>
+                                
+                            </div>
+                            <div id="" class="col-12 col-lg-5 px-5 py-5 bg-light">
+                                <h5 class="fw-light">Your appliances</h5>
+                                <div class="mt-3"> 
+                                    <button type="submit" class="mt-2 fw-bold col-12 col-lg-6">Proceed</button>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+           </div>
+
+
+        
+        </section>
+
+        <footer id="storefooter" class="pb-2">
+          <section class="">
+             <div class=" mx-3 row">
+                 <div class="pt-5 col-6 col-lg-3">
+                     <h4 class="text-success pt-5 fw-bold pb-2">Company</h4>
+                     <p class="text-black  "><a href="/imperium/blogs.html">Blogs</a></p>
+                     <p class="text-black "><a href="/imperium/about.html">About us</a></p>
+                     <p class="text-black "><a href="/contact.html">Contact us</a></p>
+                     <p class="text-black "><a href="/imperium/buyandsell.html">How to Buy and Sell on Imperium</a></p>
+                     <p class="text-black "><a href="/imperium/signup.html">Become a vendor</a></p>
+                     <p class="text-black "><a href="/imperium/t&c.html">Terms & conditions</a></p>
+                     <p class="text-black "><a href="/imperium/privacy.html">Privacy policy</a></p>
+                 </div>
+                 <div class="pt-5 col-6 col-lg-3">
+                     <h4 class="text-success pt-5 fw-bold pb-2">Offerings</h4>
+                     <p class="text-black  "><a href="/imperium/energycalculator.html">Energy Calculator</a></p>
+                     <p class="text-black "><a href="/imperium/powerservice.html">Power as a service</a></p>
+                 </div>    
+                 <div class="pt-5 col-6 col-lg-3">
+                     <h4 class="text-success pt-5 fw-bold pb-2">Get in touch</h4>
+                     <p class="text-black  "><a href="/imperium/faq.html">FAQS</a></p>
+                     <p class="text-black ">20, Marina, Lagos State</p>
+                     <p class="text-black "><a href="tel:+234 (081) 6413 3937">+234 (081) 6413 3937</a></p>
+                     <p class="text-black "> <a href="tel:+234 (081) 3547 3439">+234 (081) 3547 3439</a> </p>
+                     <p class="text-black "><a href="mailto:info@imperiumng.com">info@imperiumng.com</a></p>
+                 </div>
+                 <div class="pt-5 col-6 col-lg-3">
+                     <h4 class="text-success pt-5 fw-bold pb-2">Follow us</h4>
+                     <p style="font-size: 25px;" class="text-black display-6 pb-3">
+                        <a href="https://www.twitter.com"><i width="100" class="bi bi-twitter"></i></a>
+                        <a href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                        <a href="mailto:info@imperium.gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                        <a href="https://www.linkedin.com"><i class="bi bi-linkedin"></i></a>
+                     </p>
+                     <span class="text-white py-5">Can't find what you are looking for?</span>
+                     <dl class="pt-4"><a href="mailto:info@imperiumng.com">Send Us An Email</a></dl class="pt-3">
+
+
+                     <p class="text-end pt-5"><a href="#"><i class="bi bi-arrow-up-circle display-6"></i></a></p>     
+                 </div> 
+             </div>
+         </section>       
+     </footer>
+        
+
+     <script src="/shop/shop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="/imperium/energycalculator.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

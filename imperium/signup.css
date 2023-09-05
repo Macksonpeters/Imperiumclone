@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+div#signupbody {
+    margin: 2%;
+    margin-top: 0;
+}
+
+form#signup {
+    padding: 2rem;
+    border: 1px solid rgb(196, 195, 195);
+    border-radius: 5px;
+    margin-top: -3rem;
+    background-color: white;
+    position: relative;
+}
+
+input:placeholder-shown {
+    font-size: 0.8rem;
+}
+
+textarea:placeholder-shown {
+    font-size: 0.8rem;
+}
+
+footer {
+    margin-top: -15%;
+}
+
+#gentle-wave {
+    position: absolute;
+    width: 100%;
+    animation: wave linear 3s infinite;
+    left: 0;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-30%);
+    }
+}
+
+@media screen and (min-width: 730px) {
+
+}
+
+@media screen and (min-width: 730px) {
+    footer {
+        padding-top: 25%;
+    }
+    
+}
